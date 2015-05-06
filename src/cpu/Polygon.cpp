@@ -66,11 +66,11 @@ bool Polygon::DoesLineIntersect(const vmml::Vector3f& start_pos, const vmml::Vec
 	vmml::Vector3f intersection = start_pos + dist_vec * line_DOF; // intersection between the line & the plane
 
 	// now test the actual vertices: is the point of intersection between plane & line inside the polygon?
-	return isPointInPlaneInside(intersection);
+	return IsPointInPlaneInside(intersection);
 }
 
 //--------------------------------------------------------------------
-bool Polygon::arePointsOnBothSidesOfTheLine(const vmml::Vector3f& line_start, const vmml::Vector3f& line_end, const vmml::Vector3f& point1, const vmml::Vector3f& point2)
+bool Polygon::ArePointsOnBothSidesOfTheLine(const vmml::Vector3f& line_start, const vmml::Vector3f& line_end, const vmml::Vector3f& point1, const vmml::Vector3f& point2)
 	//--------------------------------------------------------------------
 {
 	// projection on 2D: just use x & y coordinates, except the plane of the lines is parallel to the z axis
@@ -116,11 +116,11 @@ bool Polygon::DoesPointTouch(vmml::Vector3f& point)
 	{
 		return false;
 	}
-	return isPointInPlaneInside(point);
+	return IsPointInPlaneInside(point);
 }
 
 //--------------------------------------------------------------------
-bool Polygon::isPointInPlaneInside(const vmml::Vector3f& point)
+bool Polygon::IsPointInPlaneInside(const vmml::Vector3f& point)
 	//--------------------------------------------------------------------
 {
 	// NOTE: assumes that point is in the plane of the polygon
@@ -132,7 +132,7 @@ bool Polygon::isPointInPlaneInside(const vmml::Vector3f& point)
 		vmml::Vector3f& start_vertex = *v;
 		vmml::Vector3f& end_vertex = ((v+1) != endIter) ? *(v+1) : vertices_[0]; // next vertex/first one
 
-		if(arePointsOnBothSidesOfTheLine(outside, point, start_vertex, end_vertex) && arePointsOnBothSidesOfTheLine(start_vertex, end_vertex, outside, point))
+		if(ArePointsOnBothSidesOfTheLine(outside, point, start_vertex, end_vertex) && ArePointsOnBothSidesOfTheLine(start_vertex, end_vertex, outside, point))
 		{
 			inside = !inside;
 		}

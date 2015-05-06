@@ -41,11 +41,11 @@ private:
 	* Tests if point1 and point2 are on differing sides of the line from
 	* lineStart to lineEnd.
 	*/
-	bool arePointsOnBothSidesOfTheLine(const vmml::Vector3f& lineStart, const vmml::Vector3f& lineEnd, const vmml::Vector3f& point1, const vmml::Vector3f& point2);
+	bool ArePointsOnBothSidesOfTheLine(const vmml::Vector3f& lineStart, const vmml::Vector3f& lineEnd, const vmml::Vector3f& point1, const vmml::Vector3f& point2);
 	/**
 	* Tests if a point in the plane of the polygon is inside the polygon.
 	*/
-	bool isPointInPlaneInside(const vmml::Vector3f& point);
+	bool IsPointInPlaneInside(const vmml::Vector3f& point);
 
 private:
 	/**
