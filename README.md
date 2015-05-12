@@ -11,3 +11,13 @@ References:
 
 [4] N. Akinci, G. Akinci, M. Teschner. Versatile surface tension and adhesion for SPH fluids[J]. ACM Transactions on
 Graphics (Proc. SIGGRAPH Asia) 32, 6 (2013)
+
+Portfolio:
+
+YouTube Link: https://www.youtube.com/user/niexiao2008/videos?view_as=public
+
+Youku Link http://i.youku.com/u/UMzg0NDExODQ=/videos
+    
+Development Environment：
+
+Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit installation location is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0)
