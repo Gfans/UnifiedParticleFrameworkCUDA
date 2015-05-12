@@ -16,7 +16,7 @@ Portfolio:
 
 YouTube Link: https://www.youtube.com/user/niexiao2008/videos?view_as=public
 
-Youku Link http://i.youku.com/u/UMzg0NDExODQ=/videos
+Youku Link: http://i.youku.com/u/UMzg0NDExODQ=/videos
     
 Development Environment：
 
