@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnifiedParticleFrameworkCUDA", "UnifiedParticleFrameworkCUDA.vcxproj", "{18B46A3A-2A2E-4F43-8794-8A321466ABFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Debug|Win32.Build.0 = Debug|Win32
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Debug|x64.ActiveCfg = Debug|x64
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Debug|x64.Build.0 = Debug|x64
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Release|Win32.ActiveCfg = Release|Win32
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Release|Win32.Build.0 = Release|Win32
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Release|x64.ActiveCfg = Release|x64
+		{18B46A3A-2A2E-4F43-8794-8A321466ABFC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

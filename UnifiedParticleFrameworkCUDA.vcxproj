@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cpu\cudaSPH_Include.h" />
+    <ClInclude Include="src\cpu\cutil.h" />
+    <ClInclude Include="src\cpu\Face.h" />
+    <ClInclude Include="src\cpu\globalPath.h" />
+    <ClInclude Include="src\cpu\sort.h" />
+    <ClInclude Include="src\sceneConfigure\global.h" />
+    <ClInclude Include="src\cpu\GlutApplication.h" />
+    <ClInclude Include="src\cpu\GlutWindow.h" />
+    <ClInclude Include="src\cpu\helper_math.h" />
+    <ClInclude Include="src\cpu\host_defines.h" />
+    <ClInclude Include="src\cpu\Matrix3x3.h" />
+    <ClInclude Include="src\cpu\Mesh.h" />
+    <ClInclude Include="src\cpu\ObjectLoader.h" />
+    <ClInclude Include="src\cpu\ObjLoader.h" />
+    <ClInclude Include="src\cpu\Polygon.h" />
+    <ClInclude Include="src\cpu\render_particles.h" />
+    <ClInclude Include="src\cpu\RigidBody.h" />
+    <ClInclude Include="src\sceneConfigure\Scene.h" />
+    <ClInclude Include="src\cpu\shaders.h" />
+    <ClInclude Include="src\sceneConfigure\UnifiedConstants.h" />
+    <ClInclude Include="src\cpu\UnifiedIO.h" />
+    <ClInclude Include="src\cpu\UnifiedParticle.h" />
+    <ClInclude Include="src\cpu\UnifiedPhysics.h" />
+    <ClInclude Include="src\cpu\UnifiedWindow.h" />
+    <ClInclude Include="src\cpu\Vector3D.h" />
+    <ClInclude Include="src\cpu\vector_types.h" />
+    <ClInclude Include="src\cpu\WeightingKernel.h" />
+    <ClInclude Include="src\cpu\zIndex.h" />
+    <ClInclude Include="src\gpu\particles.cuh" />
+    <ClInclude Include="src\gpu\particles_kernel.cuh" />
+    <ClInclude Include="src\gpu\radixsort.cuh" />
+    <ClInclude Include="src\gpu\UnifiedMathCUDA.cuh" />
+    <ClInclude Include="src\meshParticles\adf.h" />
+    <ClInclude Include="src\meshParticles\algo.h" />
+    <ClInclude Include="src\meshParticles\arcballcontroller.h" />
+    <ClInclude Include="src\meshParticles\baseballcontroller.h" />
+    <ClInclude Include="src\meshParticles\bits.h" />
+    <ClInclude Include="src\meshParticles\body.h" />
+    <ClInclude Include="src\meshParticles\boundingvolume.h" />
+    <ClInclude Include="src\meshParticles\cachingsparsescalarlattice.h" />
+    <ClInclude Include="src\meshParticles\cell.h" />
+    <ClInclude Include="src\meshParticles\distancetransform.h" />
+    <ClInclude Include="src\meshParticles\extractsurface.h" />
+    <ClInclude Include="src\meshParticles\gltools.h" />
+    <ClInclude Include="src\meshParticles\hashing.h" />
+    <ClInclude Include="src\meshParticles\index.h" />
+    <ClInclude Include="src\meshParticles\kdtree.h" />
+    <ClInclude Include="src\meshParticles\levelset.h" />
+    <ClInclude Include="src\meshParticles\libbell.h" />
+    <ClInclude Include="src\meshParticles\matrix3d.h" />
+    <ClInclude Include="src\meshParticles\matrix4d.h" />
+    <ClInclude Include="src\meshParticles\opengl.h" />
+    <ClInclude Include="src\meshParticles\opengl_utils.h" />
+    <ClInclude Include="src\meshParticles\particle.h" />
+    <ClInclude Include="src\meshParticles\particleplacer.h" />
+    <ClInclude Include="src\meshParticles\quaternion.h" />
+    <ClInclude Include="src\meshParticles\ray.h" />
+    <ClInclude Include="src\meshParticles\renderable.h" />
+    <ClInclude Include="src\meshParticles\scalar.h" />
+    <ClInclude Include="src\meshParticles\scalarlattice.h" />
+    <ClInclude Include="src\meshParticles\sparsescalarlattice.h" />
+    <ClInclude Include="src\meshParticles\spatialmap.h" />
+    <ClInclude Include="src\meshParticles\stopwatch.h" />
+    <ClInclude Include="src\meshParticles\testing.h" />
+    <ClInclude Include="src\meshParticles\triangle.h" />
+    <ClInclude Include="src\meshParticles\triangleboxoverlap.h" />
+    <ClInclude Include="src\meshParticles\trianglemesh.h" />
+    <ClInclude Include="src\meshParticles\trianglenearestpoint.h" />
+    <ClInclude Include="src\meshParticles\uniqueid.h" />
+    <ClInclude Include="src\meshParticles\usertime.h" />
+    <ClInclude Include="src\meshParticles\utils.h" />
+    <ClInclude Include="src\meshParticles\vector2d.h" />
+    <ClInclude Include="src\meshParticles\vector3d.h" />
+    <ClInclude Include="src\meshParticles\vector4d.h" />
+    <ClInclude Include="src\system\Profiling.h" />
+    <ClInclude Include="src\system\Timer.h" />
+    <ClInclude Include="src\vmmlib\axisAlignedBoundingBox.h" />
+    <ClInclude Include="src\vmmlib\details.hpp" />
+    <ClInclude Include="src\vmmlib\exception.hpp" />
+    <ClInclude Include="src\vmmlib\frustum.h" />
+    <ClInclude Include="src\vmmlib\frustum.hpp" />
+    <ClInclude Include="src\vmmlib\frustumCuller.h" />
+    <ClInclude Include="src\vmmlib\frustumCuller.hpp" />
+    <ClInclude Include="src\vmmlib\helperFunctions.h" />
+    <ClInclude Include="src\vmmlib\jacobiSolver.h" />
+    <ClInclude Include="src\vmmlib\jacobiSolver.hpp" />
+    <ClInclude Include="src\vmmlib\lapack.hpp" />
+    <ClInclude Include="src\vmmlib\lapack_includes.hpp" />
+    <ClInclude Include="src\vmmlib\lapack_linear_least_squares.hpp" />
+    <ClInclude Include="src\vmmlib\lapack_svd.hpp" />
+    <ClInclude Include="src\vmmlib\lapack_types.hpp" />
+    <ClInclude Include="src\vmmlib\linear_least_squares.hpp" />
+    <ClInclude Include="src\vmmlib\matrix.hpp" />
+    <ClInclude Include="src\vmmlib\matrix3.h" />
+    <ClInclude Include="src\vmmlib\matrix4.h" />
+    <ClInclude Include="src\vmmlib\matrix_functors.hpp" />
+    <ClInclude Include="src\vmmlib\qr_decomposition.hpp" />
+    <ClInclude Include="src\vmmlib\quaternion.h" />
+    <ClInclude Include="src\vmmlib\quaternion.hpp" />
+    <ClInclude Include="src\vmmlib\stringUtils.h" />
+    <ClInclude Include="src\vmmlib\stringUtils.hpp" />
+    <ClInclude Include="src\vmmlib\svd.h" />
+    <ClInclude Include="src\vmmlib\svd.hpp" />
+    <ClInclude Include="src\vmmlib\vector.hpp" />
+    <ClInclude Include="src\vmmlib\vector2.h" />
+    <ClInclude Include="src\vmmlib\vector3.h" />
+    <ClInclude Include="src\vmmlib\vector4.h" />
+    <ClInclude Include="src\vmmlib\visibility.h" />
+    <ClInclude Include="src\vmmlib\visibility.hpp" />
+    <ClInclude Include="src\vmmlib\vmmlib.h" />
+    <ClInclude Include="src\vmmlib\vmmlib.hpp" />
+    <ClInclude Include="src\vmmlib\vmmlib_config.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpu\Face.cpp" />
+    <ClCompile Include="src\cpu\GlutApplication.cpp" />
+    <ClCompile Include="src\cpu\GlutWindow.cpp" />
+    <ClCompile Include="src\cpu\main.cpp" />
+    <ClCompile Include="src\cpu\Matrix3x3.cpp" />
+    <ClCompile Include="src\cpu\Mesh.cpp" />
+    <ClCompile Include="src\cpu\ObjectLoader.cpp" />
+    <ClCompile Include="src\cpu\ObjLoader.cpp" />
+    <ClCompile Include="src\cpu\Polygon.cpp" />
+    <ClCompile Include="src\cpu\render_particles.cpp" />
+    <ClCompile Include="src\cpu\RigidBody.cpp" />
+    <ClCompile Include="src\sceneConfigure\global.cpp" />
+    <ClCompile Include="src\sceneConfigure\Scene.cpp" />
+    <ClCompile Include="src\cpu\shaders.cpp" />
+    <ClCompile Include="src\sceneConfigure\UnifiedConstants.cpp" />
+    <ClCompile Include="src\cpu\UnifiedIO.cpp" />
+    <ClCompile Include="src\cpu\UnifiedParticle.cpp" />
+    <ClCompile Include="src\cpu\UnifiedPhysics.cpp" />
+    <ClCompile Include="src\cpu\UnifiedWindow.cpp" />
+    <ClCompile Include="src\cpu\Vector3D.cpp" />
+    <ClCompile Include="src\cpu\WeightingKernel.cpp" />
+    <ClCompile Include="src\cpu\zIndex.cpp" />
+    <ClCompile Include="src\system\Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\gpu\particles.cu" />
+    <CudaCompile Include="src\gpu\particles_kernel.cu" />
+    <CudaCompile Include="src\gpu\radixsort_kernel.cu" />
+    <CudaCompile Include="src\gpu\UnifiedMathCUDA.cu" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18B46A3A-2A2E-4F43-8794-8A321466ABFC}</ProjectGuid>
+    <RootNamespace>UnifiedParticleFrameworkCUDA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>src;src\common;src\cpu;src\gpu;src\headers;src\meshParticles;src\sceneConfigure;src\system;src\threadpool;src\vmmlib;src\headers\cuda7.0_include\include;ffmpeg\include;%(AdditionalIncludeDirectories);$(CudaToolkitIncludeDir)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;glui32.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;meshParticles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>libs\glui\debug;libs\cuda7.0_lib\Win32;ffmpeg\lib;libs\freeglut\x86\Debug;libs\meshParticles\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <GenerateLineInfo>true</GenerateLineInfo>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;src\common;src\cpu;src\gpu;src\headers;src\meshParticles;src\sceneConfigure;src\system;src\threadpool;src\vmmlib;src\headers\cuda7.0_include\include;ffmpeg\include;%(AdditionalIncludeDirectories);$(CudaToolkitIncludeDir)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;glew64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;meshParticles.lib;freeglut.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>libs\glui\debug;ffmpeg\lib;%(AdditionalLibraryDirectories);libs\freeglut\x64\Debug;libs\cuda7.0_lib\x64;libs\meshParticles\x64\Debug</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <GenerateLineInfo>true</GenerateLineInfo>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>src;src\common;src\cpu;src\gpu;src\headers;src\meshParticles;src\sceneConfigure;src\system;src\threadpool;src\vmmlib;src\headers\cuda7.0_include\include;ffmpeg\include;%(AdditionalIncludeDirectories);$(CudaToolkitIncludeDir)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;glew32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;opengl32.lib;glu32.lib;glui32.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;meshParticles.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>libs\glui\release;libs\cuda7.0_lib\Win32;ffmpeg\lib;libs\freeglut\x86;libs\meshParticles\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>src;src\common;src\cpu;src\gpu;src\headers;src\meshParticles;src\sceneConfigure;src\system;src\threadpool;src\vmmlib;src\headers\cuda7.0_include\include;ffmpeg\include;%(AdditionalIncludeDirectories);$(CudaToolkitIncludeDir)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>cudart.lib;glew64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;meshParticles.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>libs\glui\release;ffmpeg\lib;libs\freeglut\x64;libs\glew\x64;libs\glut\x64;libs\cuda7.0_lib\x64;libs\meshParticles\x64\Release</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>echo copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"
+copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <CudaCompile>
+      <GenerateRelocatableDeviceCode>true</GenerateRelocatableDeviceCode>
+      <CodeGeneration>compute_35,sm_35</CodeGeneration>
+      <FastMath>true</FastMath>
+    </CudaCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 7.0.targets" />
+  </ImportGroup>
+</Project>
