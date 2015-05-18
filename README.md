@@ -3,7 +3,7 @@ A unified particle framework similar to NVIDIA FleX. It uses CUDA to accelerate 
 
 References:
 
-[1] P. Goswami, P. Schlegel, B. Solenthaler, et al. Interactive SPH simulation and rendering on the GPU[C]//Proceedings of the 2010 ACM SIGGRAPH/Eurographics Symposium on Computer Animation. 2010. Aire-la-Ville, Switzerland, Switzerland: Eurographics Association, SCA ’10.
+[1] P. Goswami, P. Schlegel, B. Solenthaler, et al. Interactive SPH simulation and rendering on the GPU[C] Proceedings of the 2010 ACM SIGGRAPH/Eurographics Symposium on Computer Animation (SCA ’10).
 
 [2] X. Nie, L. Chen, T. Xiang. Real-Time Incompressible Fluid Simulation on the GPU[J]. International Journal of Computer Games Technology, 2015.
 
