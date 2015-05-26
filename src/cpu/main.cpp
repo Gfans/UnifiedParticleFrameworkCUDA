@@ -1,4 +1,3 @@
-#include <iostream>
 #include <fstream>
 #include <cstdlib>
 #include <cstring>
@@ -26,11 +25,10 @@ int main(int argc, char** argv)
 	// create GLUT graphics window
 	GlutApplication myApp("Unified Particle Framework CUDA", &myWindow);
 
-	std::cout << "----------------------CUDA Device Information!----------------------" << std::endl;
+	printf("----------------------CUDA Device Information!----------------------\n");
 	int deviceCount;
 	cudaGetDeviceCount(&deviceCount);
-	std::cout << "CUDA-Capable device count: " << deviceCount << std::endl;
-	printf( "\n" );
+	printf("CUDA-Capable device count: %d\n", deviceCount); 
 	// Device Enumeration
 	for (int device = 0; device < deviceCount; ++device) {
 		cudaDeviceProp deviceProp;
@@ -46,12 +44,12 @@ int main(int argc, char** argv)
 	if (useGTX780)
 	{
 		cudaSetDevice(0);
-		std::cout << "\nCurrent device is set to GTX 780!" << std::endl << std::endl;
+		printf("\nCurrent device is set to GTX 780!\n\n"); 
 	}
 	else
 	{
 		cudaSetDevice(1); // use GTX 480
-		std::cout << "\nCurrent device is set to GTX 480!" << std::endl << std::endl;
+		printf("\nCurrent device is set to GTX 480!\n\n");
 	}
 
 	fc = new UnifiedConstants();
