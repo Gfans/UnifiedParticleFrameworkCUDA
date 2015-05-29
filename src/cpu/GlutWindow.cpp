@@ -8,15 +8,15 @@ GlutWindow::~GlutWindow()
 {
 }
 
-void GlutWindow::display()
+void GlutWindow::Display()
 {
 }
 
-void GlutWindow::reshape(int width, int height)
+void GlutWindow::Reshape(const int width, const int height)
 {
 }
 
-void GlutWindow::keyboard(unsigned char key, int x, int y)
+void GlutWindow::Keyboard(const unsigned char key, const int x, const int y)
 {
 }
 
@@ -24,11 +24,11 @@ void GlutWindow::specialKeyboard(int key, int x, int y)
 {
 }
 
-void GlutWindow::mouse(int button, int state, int x, int y)
+void GlutWindow::Mouse(const int button, const int state, const int x, int y)
 {
 }
 
-void GlutWindow::motion(int x, int y)
+void GlutWindow::Motion(const int x, const int y)
 {
 }
 

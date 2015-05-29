@@ -25,8 +25,8 @@ void GlutApplication::displayCallback()
 	// get current Window id
 	int currentWindowId = glutGetWindow();
 
-	// call the corresponding windows display() method
-	idToWindowMap[currentWindowId]->display();
+	// call the corresponding windows Display() method
+	idToWindowMap[currentWindowId]->Display();
 }
 
 void GlutApplication::reshapeCallback(int w, int h)
@@ -34,8 +34,8 @@ void GlutApplication::reshapeCallback(int w, int h)
 	// get current Window id
 	int currentWindowId = glutGetWindow();
 
-	// call the corresponding windows reshape() method
-	idToWindowMap[currentWindowId]->reshape(w, h);
+	// call the corresponding windows Reshape() method
+	idToWindowMap[currentWindowId]->Reshape(w, h);
 }
 
 
@@ -44,8 +44,8 @@ void GlutApplication::keyboardCallback(unsigned char key, int x, int y)
 	// get current Window id
 	int currentWindowId = glutGetWindow();
 
-	// call the corresponding windows keyboard() method
-	idToWindowMap[currentWindowId]->keyboard(key, x, y);
+	// call the corresponding windows Keyboard() method
+	idToWindowMap[currentWindowId]->Keyboard(key, x, y);
 }
 
 void GlutApplication::specialKeyboardCallback(int key, int x, int y)
@@ -62,8 +62,8 @@ void GlutApplication::mouseCallback(int button, int state, int x, int y)
 	// get current Window id
 	int currentWindowId = glutGetWindow();
 
-	// call the corresponding windows mouse(button, state, x, y) method
-	idToWindowMap[currentWindowId]->mouse(button, state, x, y);
+	// call the corresponding windows Mouse(button, state, x, y) method
+	idToWindowMap[currentWindowId]->Mouse(button, state, x, y);
 }
 
 void GlutApplication::motionCallback(int x, int y)
@@ -72,7 +72,7 @@ void GlutApplication::motionCallback(int x, int y)
 	int currentWindowId = glutGetWindow();
 
 	// call the corresponding windows motion() method
-	idToWindowMap[currentWindowId]->motion(x, y);
+	idToWindowMap[currentWindowId]->Motion(x, y);
 }
 
 void GlutApplication::passiveMotionCallback(int x, int y)

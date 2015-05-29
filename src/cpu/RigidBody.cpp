@@ -15,7 +15,7 @@ RigidBody::RigidBody(): mass_(0.0), rigidbody_pos_(0.0f, 0.0f ,0.0f), old_center
 //--------------------------------------------------------------------
 void RigidBody::ApplyTorque(const vmml::Vector3f& force, const UnifiedParticle& body_part)
 {
-	torque_ += (vmml::Vector3f(body_part.position) - rigidbody_pos_).cross(force);
+	torque_ += (vmml::Vector3f(body_part.position_) - rigidbody_pos_).cross(force);
 }
 
 //--------------------------------------------------------------------

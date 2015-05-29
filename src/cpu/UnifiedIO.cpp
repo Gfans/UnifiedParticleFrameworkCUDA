@@ -11,7 +11,7 @@ UnifiedIO::~UnifiedIO()
 
 }
 
-void UnifiedIO::SaveParticlePositions(const vector<UnifiedParticle> &particles)
+void UnifiedIO::SaveParticlePositions(const std::vector<UnifiedParticle> &particles)
 {
 	static int fileCounter = 0;
 	char filename[200];
@@ -24,12 +24,12 @@ void UnifiedIO::SaveParticlePositions(const vector<UnifiedParticle> &particles)
 	out_file_particles_ << particles.size() << std::endl;
 	std::cout << particles.size() << std::endl;
 
-	for (vector<UnifiedParticle>::const_iterator p = particles.begin(); p != particles.end(); ++p)
+	for (std::vector<UnifiedParticle>::const_iterator p = particles.begin(); p != particles.end(); ++p)
 	{
 		// save all parameters which would be set in the constructor of UnifiedParticle
-		float px = p->position[0];
-		float py = p->position[1];
-		float pz = p->position[2];
+		float px = p->position_[0];
+		float py = p->position_[1];
+		float pz = p->position_[2];
 
 		float vx = 0;
 		float vy = 0;

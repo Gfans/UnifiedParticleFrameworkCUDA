@@ -77,12 +77,12 @@ void UnifiedWindow::Display()
 
 	rendering_time.Stop();
 	total_time.Stop();
-	myFluid->timeCounter_rendering_ += rendering_time.GetElapsedTime();
-	myFluid->timeCounter_total_ += total_time.GetElapsedTime();
-	if (myFluid->frameCounter_ % SPH_PROFILING_FREQ == 0)
+	myFluid->time_counter_rendering_ += rendering_time.GetElapsedTime();
+	myFluid->time_counter_total_ += total_time.GetElapsedTime();
+	if (myFluid->frame_counter_ % SPH_PROFILING_FREQ == 0)
 	{
-		float averageElapsed = myFluid->timeCounter_rendering_ / myFluid->frameCounter_;
-		float averageElapsedTotal = myFluid->timeCounter_total_ / myFluid->frameCounter_;
+		float averageElapsed = myFluid->time_counter_rendering_ / myFluid->frame_counter_;
+		float averageElapsedTotal = myFluid->time_counter_total_ / myFluid->frame_counter_;
 		std::cout << "  overall rendering          average: ";
 		std::cout << std::fixed << std::setprecision(5) << averageElapsed << "s = ";
 		std::cout << std::setprecision(2) << std::setw(7) << 1.0f / averageElapsed << "fps" << std::endl;
@@ -99,9 +99,9 @@ void UnifiedWindow::Display()
 
 #ifdef USE_FFMPEG
 
-	glReadPixels(0, 0, 800, 600, GL_RGBA, GL_UNSIGNED_BYTE, myFluid->buffer);
+	glReadPixels(0, 0, 800, 600, GL_RGBA, GL_UNSIGNED_BYTE, myFluid->buffer_);
 
-	fwrite(myFluid->buffer, sizeof(int)*800*600, 1, myFluid->ffmpeg);
+	fwrite(myFluid->buffer_, sizeof(int)*800*600, 1, myFluid->ffmpeg_);
 
 #endif
 }
@@ -139,10 +139,10 @@ void UnifiedWindow::DisplayObjects()
 
 	// draw the border of the scene
 	//glColor3f(0, 0, 0);
-	//myFluid->drawBox(fc->virtualBoundingBox);
+	//myFluid->DrawBox(fc->virtualBoundingBox);
 
 	glColor3f(1.0, 0.0, 0.0);
-	myFluid->drawBox(fc->realBoxContainer);
+	myFluid->DrawBox(fc->realBoxContainer);
 
 	//glColor3f ( 0.1, 0.1, 0.2 );
 	//myFluid->drawGroundGrid(fc->realBoxContainer);
@@ -178,7 +178,7 @@ void UnifiedWindow::Reshape(const int width, const int height)
 	glViewport(0,0,width,height);
 
 #if defined(USE_VBO_CUDA) || defined(USE_VBO_CPU)
-	ParticleRenderer *render = myFluid->renderer;
+	ParticleRenderer *render = myFluid->renderer();
 
 	if (render)
 	{
@@ -625,7 +625,7 @@ void UnifiedWindow::RenderFromGPUSimulation()
 
 void UnifiedWindow::RenderWithVBO()
 {
-	ParticleRenderer *myRenderer = myFluid->renderer;
+	ParticleRenderer *myRenderer = myFluid->renderer();
 	if ( myRenderer && fc->displayEnabled)
 	{
 		myRenderer->display(display_mode_);
@@ -637,14 +637,14 @@ void UnifiedWindow::RenderWithoutVBO()
 	//float r = SPHERE_RADIUS * fc->particleSpacing * sphere_size_factor_;
 	float r = fc->particleRadius;
 	int size = 3;
-	const uint numParticles = myFluid->particles.size();
+	const uint numParticles = myFluid->particles().size();
 	for (int i = 0; i < numParticles; ++i)
 	{	
-		float x = myFluid->particleInfoForRendering.p_pos_zindex[4*i];
-		float y = myFluid->particleInfoForRendering.p_pos_zindex[4*i+1];
-		float z = myFluid->particleInfoForRendering.p_pos_zindex[4*i+2];
+		float x = myFluid->particle_info_for_rendering().p_pos_zindex[4*i];
+		float y = myFluid->particle_info_for_rendering().p_pos_zindex[4*i+1];
+		float z = myFluid->particle_info_for_rendering().p_pos_zindex[4*i+2];
 
-		int type = myFluid->particleInfoForRendering.p_type[i];
+		int type = myFluid->particle_info_for_rendering().p_type[i];
 
 		/*
 		float t = i / (float) numParticles;
@@ -697,21 +697,21 @@ void UnifiedWindow::UseVBOCPU()
 #ifdef  HIDE_FROZEN_PARTICLES
 
 	// transfer updated data to GPU before soring
-	myFluid->updatePositionVBOWithoutFrozenParticles();
+	myFluid->UpdatePositionVBOWithoutFrozenParticles();
 
-	if (myFluid->renderer)
+	if (myFluid->renderer())
 	{
-		myFluid->renderer->setVertexBuffer(myFluid->getVBOCpu(), myFluid->getNumNonfrozenParticles());
+		myFluid->renderer()->setVertexBuffer(myFluid->GetVBOCpu(), myFluid->GetNumNonfrozenParticles());
 	}
 
 #else
 
 	// transfer updated data to GPU before soring
-	myFluid->updatePositionVBO();
+	myFluid->UpdatePositionVBO();
 
-	if (myFluid->renderer)
+	if (myFluid->renderer())
 	{
-		myFluid->renderer->setVertexBuffer(myFluid->getVBOCpu(), myFluid->particles.size());
+		myFluid->renderer()->setVertexBuffer(myFluid->GetVBOCpu(), myFluid->particles().size());
 	}
 
 #endif // #ifdef  HIDE_FROZEN_PARTICLES
@@ -728,13 +728,13 @@ void UnifiedWindow::UseWithoutVBO()
 	//float r = SPHERE_RADIUS * fc->particleSpacing * sphere_size_factor_;
 	float r = fc->particleRadius;
 	int size = 3;
-	const uint numParticles = myFluid->particles.size();
+	const uint numParticles = myFluid->particles().size();
 	for (int i = 0; i < numParticles; ++i)
 	{	
-		UnifiedParticle &p = myFluid->particles[i];
-		x = myFluid->particles[i].position_.x;
-		y = myFluid->particles[i].position_.y;
-		z = myFluid->particles[i].position_.z;		
+		UnifiedParticle &p = myFluid->particles()[i];
+		x = myFluid->particles()[i].position_.x;
+		y = myFluid->particles()[i].position_.y;
+		z = myFluid->particles()[i].position_.z;		
 
 		RenderParticles(p.type_, x, y, z, r);
 	}

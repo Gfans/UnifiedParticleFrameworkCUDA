@@ -6,10 +6,10 @@
 #include "vmmlib/vector3.h"
 
 /**
- * This class represents a polygonal Face.
- * A Polygon must at least have 3 vertices added, and their position must not be identical.
- * All vertices must be on one plane.
- */
+* This class represents a polygonal Face.
+* A Polygon must at least have 3 vertices added, and their position must not be identical.
+* All vertices must be on one plane.
+*/
 class Polygon : public Face
 {
 public:

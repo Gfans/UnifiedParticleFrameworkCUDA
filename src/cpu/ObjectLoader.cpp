@@ -76,7 +76,7 @@ std::vector<UnifiedParticle>* ObjectLoader::LoadParticles(const std::string& fil
 				}
 				if(should_add)
 				{
-					particle_template.position.set((current_pos[0]-min_vec[0])*scale_x, (current_pos[1]-min_vec[1])*scale_y, (current_pos[2]-min_vec[2])*scale_z);
+					particle_template.position_.set((current_pos[0]-min_vec[0])*scale_x, (current_pos[1]-min_vec[1])*scale_y, (current_pos[2]-min_vec[2])*scale_z);
 					result->push_back(particle_template);
 				}
 				++particles_tried; // DEL

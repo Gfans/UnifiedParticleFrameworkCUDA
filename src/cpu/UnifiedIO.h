@@ -17,7 +17,7 @@ public:
 	UnifiedIO();
 	~UnifiedIO();
 
-	void SaveParticlePositions(const vector<UnifiedParticle>& particles);	
+	void SaveParticlePositions(const std::vector<UnifiedParticle>& particles);	
 	void SaveLiquidParticleInfoFull(float* pos, int* type, int num_rounded_particles, int num_liquid_particles);
 	void SaveRigidParticleInfoFull(float* pos, int* type, int num_rounded_particles, int num_liquid_particles);
 
