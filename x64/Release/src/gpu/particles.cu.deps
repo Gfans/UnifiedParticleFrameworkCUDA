@@ -1,0 +1,728 @@
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_config.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sal.h
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stddef.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\channel_descriptor.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_runtime_api.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_device_runtime_api.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_runtime_api.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\common_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wtime.inl
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\math_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cmath
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\yvals.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdlib
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\math_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\math_functions_dbl_ptx3.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\math_functions_dbl_ptx3.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\channel_descriptor.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\channel_descriptor.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_atomic_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_atomic_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_double_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_double_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_20_atomic_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_20_atomic_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_atomic_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_atomic_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_35_atomic_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_atomic_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_20_intrinsics.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_20_intrinsics.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_30_intrinsics.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_30_intrinsics.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_intrinsics.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_intrinsics.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_35_intrinsics.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\sm_32_intrinsics.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_fetch_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_fetch_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\cuda_texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_indirect_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_indirect_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_indirect_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_indirect_functions.hpp
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_functions.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_launch_parameters.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\gpu\radixsort.cuh
+e:\github\unifiedparticleframeworkcuda\src\cpu\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\cutil.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\swprintf.inl
+e:\github\unifiedparticleframeworkcuda\src\cpu\vector_types.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\limits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ymath.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cfloat
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\float.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtwrn.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\climits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wchar.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xstddef
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstddef
+e:\github\unifiedparticleframeworkcuda\src\gpu\particles.cuh
+e:\github\unifiedparticleframeworkcuda\src\cpu\host_defines.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\cutil.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\vector_types.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdint.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\UnifiedParticle.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\memory
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\new
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\eh.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\malloc.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\utility
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdbg.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\type_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xtr1common
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ammintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xxshared
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cassert
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\iomanip
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\istream
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ostream
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ios
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xiosbase
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xstring
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ctype.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xdebug
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\system_error
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\errno.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\share.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocmon
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xloctime
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\ctime
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\iostream
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\vector
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xfunctional
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sstream
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cassert
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cassert
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cassert
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cassert
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+e:\github\unifiedparticleframeworkcuda\src\sceneconfigure\global.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\zIndex.h
+e:\github\unifiedparticleframeworkcuda\src\gpu\UnifiedMathCUDA.cuh
+e:\github\unifiedparticleframeworkcuda\src\cpu\UnifiedParticle.h
+e:\github\unifiedparticleframeworkcuda\src\cpu\Matrix3x3.h
+e:\github\unifiedparticleframeworkcuda\src\gpu\particles_kernel.cuh
+e:\github\unifiedparticleframeworkcuda\src\gpu\particles.cuh
+e:\github\unifiedparticleframeworkcuda\src\gpu\radixsort.cuh
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\Windows.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\excpt.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\windef.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sal_supp.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\specstrings_supp.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_strict.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\specstrings_undef.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\driverspecs.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack4.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\pshpack8.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ktmtypes.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winbase.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winerror.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wingdi.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack4.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winuser.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\tvout.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnls.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wincon.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winver.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\verrsrc.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winreg.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\reason.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winnetwk.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wnnc.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\cderr.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\dde.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ddeml.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\dlgs.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\lzexpand.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\mmsystem.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\nb30.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpc.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcdce.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcdcep.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnsi.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnterr.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcasync.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\shellapi.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winperf.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winsock.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\inaddr.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wincrypt.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\bcrypt.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ncrypt.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\bcrypt.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winefs.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winscard.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\wtypes.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\rpcndr.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcnsip.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\rpcsal.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\guiddef.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winioctl.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack1.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsmcrd.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winspool.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ole2.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objbase.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\unknwn.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\objidl.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\cguid.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oleidl.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\msxml.h
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\oaidl.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\propidl.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\oleauto.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\pshpack8.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\poppack.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\commdlg.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\prsht.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\stralign.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\winsvc.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\mcx.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\imm.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\ime_cmodes.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\builtin_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\device_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\driver_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\surface_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\texture_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\vector_types.h
+e:\github\unifiedparticleframeworkcuda\src\headers\cuda7.0_include\include\host_defines.h
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\GL/gl.h

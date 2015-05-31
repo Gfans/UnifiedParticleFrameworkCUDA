@@ -4,8 +4,6 @@
 #include "System/Profiling.h"
 #include "System/Timer.h"
 
-#include "mtime.h"
-
 #include "zIndex.h"
 #include "sort.h"
 #include "UnifiedPhysics.h"
@@ -231,11 +229,11 @@ UnifiedPhysics::~UnifiedPhysics()
 
 	for (int i = 0; i < 2; ++i)
 	{
-		unregisterGLBufferObject(cuda_posvbo_resource_[i]);
+		UnregisterGLBufferObject(cuda_posvbo_resource_[i]);
 		glDeleteBuffers(1, (const GLuint *)&dptr_.m_posVbo[i]);
 	}
 	
-	unregisterGLBufferObject(cuda_colorvbo_resource_);
+	UnregisterGLBufferObject(cuda_colorvbo_resource_);
 	glDeleteBuffers(1, &m_color_vbo_);	
 
 #endif	
@@ -1223,11 +1221,11 @@ void UnifiedPhysics::DoCudaGLInteraction()
 	for (int i = 0; i < 2; ++i)
 	{
 		dptr_.m_posVbo[i] = CreateVBO(vboMemSize);
-		registerGLBufferObject(dptr_.m_posVbo[i], &cuda_posvbo_resource_[i]);
+		RegisterGLBufferObject(dptr_.m_posVbo[i], &cuda_posvbo_resource_[i]);
 	}
 
 	m_color_vbo_ = CreateVBO(vboMemSize);
-	registerGLBufferObject(m_color_vbo_, &cuda_colorvbo_resource_);
+	RegisterGLBufferObject(m_color_vbo_, &cuda_colorvbo_resource_);
 	// fill color buffer
 	glBindBufferARB(GL_ARRAY_BUFFER, m_color_vbo_);
 	float *data = (float *) glMapBufferARB(GL_ARRAY_BUFFER, GL_WRITE_ONLY);
@@ -1270,11 +1268,11 @@ void UnifiedPhysics::DoCudaGLInteraction()
 
 	// transfer data from host to device using OpenGL's vbo function
 	// we only need to copy date to dptr_.m_posVbo[0], this would be the input data when mapping with CUDA 
-	unregisterGLBufferObject(cuda_posvbo_resource_[0]);
+	UnregisterGLBufferObject(cuda_posvbo_resource_[0]);
 	glBindBuffer(GL_ARRAY_BUFFER, dptr_.m_posVbo[0]);
 	glBufferSubData(GL_ARRAY_BUFFER, 0, vboMemSize, h_positions_);
 	glBindBuffer(GL_ARRAY_BUFFER, 0);
-	registerGLBufferObject(dptr_.m_posVbo[0], &cuda_posvbo_resource_[0]);
+	RegisterGLBufferObject(dptr_.m_posVbo[0], &cuda_posvbo_resource_[0]);
 }
 
 //--------------------------------------------------------------------
@@ -4061,7 +4059,7 @@ void UnifiedPhysics::CudaParticlePhysics()
 		// -> Context switching OPENGL -> CUDA
 		for (int i = 0; i < 2; ++i)
 		{
-			dptr_.d_pos_zindex[i] = (float4 *) mapGLBufferObject(&cuda_posvbo_resource_[i]);  
+			dptr_.d_pos_zindex[i] = (float4 *) MapGLBufferObject(&cuda_posvbo_resource_[i]);  
 		}
 
 		// (2) DoCUDAwork
@@ -4089,7 +4087,7 @@ void UnifiedPhysics::CudaParticlePhysics()
 		// -> Context switching CUDA -> OPENGL
 		for (int i = 0; i < 2; ++i)
 		{
-			unmapGLBufferObject(cuda_posvbo_resource_[i]);
+			UnmapGLBufferObject(cuda_posvbo_resource_[i]);
 		}
 
 		// (4) buffer swap
