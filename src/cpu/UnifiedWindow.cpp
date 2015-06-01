@@ -59,7 +59,7 @@ void UnifiedWindow::Display()
 	assert(fc && myFluid);
 #endif
 
-	if(fc->animating==1 || fc->animationStep==1)
+	if(fc->animating || fc->one_animation_step)
 	{
 		myFluid->DoPhysics();
 	}
@@ -93,7 +93,7 @@ void UnifiedWindow::Display()
 
 #endif
 
-	fc->animationStep = 0;
+	fc->one_animation_step = false;
 
 	glutSwapBuffers();
 
@@ -302,7 +302,7 @@ void UnifiedWindow::Keyboard(const unsigned char key, const int x, const int y)
 	case 'a':
 		// start and stop animation			
 		fc->animating = !fc->animating;
-		std::cout << "animating: " << fc->animating<< std::endl;
+		std::cout << "animating: " << ((fc->animating)? "true": "false") << std::endl;
 		break;
 	case 'd':
 		fc->displayEnabled = !fc->displayEnabled;
@@ -319,7 +319,7 @@ void UnifiedWindow::Keyboard(const unsigned char key, const int x, const int y)
 		break;
 	case 's' :
 		// do one animation step
-		fc->animationStep = 1;
+		fc->one_animation_step = true;
 		std::cout << "One animation step" << std::endl;
 		break;
 	case '0':

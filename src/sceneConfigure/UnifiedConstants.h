@@ -32,8 +32,8 @@ private:
 public:
 
 	// animation loop or individual steps can be controlled by key inputs
-	int animating;
-	int animationStep; 
+	bool animating;
+	bool one_animation_step; 
 	int simulationMethod;			// 0: SPH 1: WCSPH  2: PCISPH
 
 	float sizeFactor;				// defines particle resolution

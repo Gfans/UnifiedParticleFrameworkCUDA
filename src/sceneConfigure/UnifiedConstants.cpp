@@ -8,8 +8,8 @@ UnifiedConstants::UnifiedConstants()
 {
 	srand(time(NULL));
 
-	animating = 0;
-	animationStep = 0;
+	animating = true;			
+	one_animation_step = false;
 
 	sizeFactor = 1.0; 
 
