@@ -103,7 +103,7 @@ void Scene::build(UnifiedPhysics* physics, UnifiedConstants* fc, float spacing, 
 	//teapots
 	//*teapot 1 full particles object
 	{
-		const vmml::Vector3f offset(1.4, 0.055, 0.05);
+		const vmml::Vector3f offset(1.4, 0.055, 0.25);
 		const vmml::Vector3f scale(0.00025f, 0.00025f, 0.00025f);
 		isRigidBody = true;
 		CreateFullParticleObject(fc, offset, rb4_density, RIGID_PARTICLE, "models/teapot.obj", scale, spacing, isRigidBody);
@@ -112,7 +112,7 @@ void Scene::build(UnifiedPhysics* physics, UnifiedConstants* fc, float spacing, 
 
 	//*teapot 2 full particles object
 	{
-		const vmml::Vector3f offset(1.4, 0.055, 0.45);
+		const vmml::Vector3f offset(1.4, 0.055, 0.65);
 		const vmml::Vector3f scale(0.00025f, 0.00025f, 0.00025f);
 		isRigidBody = true;
 		CreateFullParticleObject(fc, offset, rb5_density, RIGID_PARTICLE, "models/teapot.obj", scale, spacing, isRigidBody);
@@ -121,7 +121,7 @@ void Scene::build(UnifiedPhysics* physics, UnifiedConstants* fc, float spacing, 
 
 	//*teapot 3 full particles object
 	{
-		const vmml::Vector3f offset(1.4, 0.055, 0.85);
+		const vmml::Vector3f offset(1.4, 0.055, 1.05);
 		const vmml::Vector3f scale(0.00025f, 0.00025f, 0.00025f);
 		isRigidBody = true;
 		CreateFullParticleObject(fc, offset, rb6_density, RIGID_PARTICLE, "models/teapot.obj", scale, spacing, isRigidBody);

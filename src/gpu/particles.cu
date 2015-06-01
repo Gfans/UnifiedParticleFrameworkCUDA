@@ -2623,10 +2623,11 @@ extern "C"
 #endif
 
 		int currIndex = dptr.currIndex;
-		int currType = dptr.currType;
+		int currType  = dptr.currType;
 		// x : without redistribution
 		// y : after redistribution
-		int x = 0, y = 0;
+		int x = 0;
+		int y = 0;
 
 		// Z-index and Sorting
 		ZindexSortingStaticBoundariesPCISPH(currIndex, currType, dptr);

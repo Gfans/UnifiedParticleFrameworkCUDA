@@ -6133,7 +6133,7 @@ void UnifiedPhysics::DoPhysicsDemo1()
 	// print timings
 	static int outCnt;
 	if(fc_->printDebuggingInfo==1) outCnt = 1;
-	else outCnt = 20;
+	else outCnt = 10;
 
 #ifdef SPH_PROFILING
 
@@ -6171,7 +6171,7 @@ void UnifiedPhysics::DoPhysicsDemo1()
 																particle_info_for_rendering_.p_predicted_density,
 																particle_info_for_rendering_.p_type, 
 																fc->numLiquidParticles);
-		//*/
+		/*
 
 		my_unified_io_->SaveLiquidParticleInfoFull(particle_info_for_rendering_.p_pos_zindex, particle_info_for_rendering_.p_type, dptr_.particleCountRounded, fc_->numLiquidParticles);
 

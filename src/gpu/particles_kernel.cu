@@ -49,14 +49,14 @@ float		 indexCalculationTimeCounter_         = 0.0f;
 #endif
 
 //=====================================================================
-//                      DEVICE VARIABLES
+//                      Definitions of Device Variables
 //=====================================================================
 
 __device__ unsigned int filteredCount;
 __device__ unsigned int blockCount;
 
 //=====================================================================
-//          CONSTANT VARIABLES
+//                      Definitions of Constant Variables
 //=====================================================================
 
 __constant__ static unsigned int xMASK;

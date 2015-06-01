@@ -54,14 +54,14 @@ extern __constant__ float deltaT;
 #endif
 
 //=====================================================================
-//                      DEVICE VARIABLES
+//                      Declarations of Device Variables
 //=====================================================================
 
 extern __device__ unsigned int filteredCount;
 extern __device__ unsigned int blockCount;
 
 //=====================================================================
-//          CONSTANT VARIABLES
+//                      Declarations of Constant Variables
 //=====================================================================
 
 extern __constant__ unsigned int xMASK;

@@ -309,7 +309,7 @@ void UnifiedConstants::setBoundingBoxValues()
 {
 	// set virtual bounding box
 	const vmml::Vector3f minBBoxVec(0.0, 0.0, 0.0);	 // Set as so to make sure we contain all the static frozen particles in the virtualBoundingBox
-	const vmml::Vector3f maxBBoxVec(2.0, 2.0, 1.25);  
+	const vmml::Vector3f maxBBoxVec(2.0, 2.0, 1.5);  
 	setBBox(minBBoxVec, maxBBoxVec, virtualBoundingBox);
 	// get virtual bounding box range and grid scale along axis for the simulation domain
 	vmml::Vector3f delta = virtualBoundingBox.getMax()-virtualBoundingBox.getMin();
