@@ -20,8 +20,13 @@ Youku Link: http://i.youku.com/u/UMzg0NDExODQ=/videos
     
 Development Environment：
 
-Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit installation location is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0)
+Windows 7 & Visual C++ 2010 & CUDA Toolkit v7.0 (The default CUDA toolkit installation location is C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0) & Intel 3770(CPU) & GTX 780(GPU)
 
 Coding style:
 
 Coding style for this project generally follows the Google C++ Style Guide 
+
+Note:
+
+I use GTX 780 for testing. Since It has compute capability 3.5, I set code generation as compute_35 & sm_35. Also, the header file "sm_35_atomic_functions.h" has been included in particlues_kernel.cuh. You might need to slightly change these settings if you use different GPU with earlier compute capability. But any devices from Fermi to maxwell would work with the code.
+
