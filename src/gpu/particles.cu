@@ -97,14 +97,7 @@ extern "C"
 		CUDA_SAFE_CALL(cudaGraphicsUnmapResources(1, &cuda_vbo_resource, 0));
 	}
 
-	uint CopyGPUBlocks(unsigned int* dst, dataPointers& dptr)
-	{
-		CUDA_SAFE_CALL( cudaMemcpy( dst, dptr.particlesKVPair_d[0], 3 * dptr.filledBlocks * sizeof(uint),
-			cudaMemcpyDeviceToHost ) );
-		return dptr.filledBlocks;
-	}
-
-	void MallocDeviceArraysParticles(dataPointers& dptr )
+	void MallocDeviceArraysParticles(dataPointers& dptr)
 	{
 		uint count = dptr.finalParticleCount;
 		if( count % MAX_THREADS_PER_BLOCK_SPH )
@@ -1602,7 +1595,6 @@ extern "C"
 
 
 		 // Calculate Z-indices for particles
-		 // TODO : need to determine where should we put this function
 		 CalculateZindex(currIndex, dptr);
 
 
@@ -1742,7 +1734,6 @@ extern "C"
 
 
 		// Calculate Z-indices for particles
-		// TODO : need to determine where should we put this function
 		CalculateZindex(currIndex, dptr);
 
 		UnbindTexturesPCISPH();
@@ -2657,7 +2648,6 @@ extern "C"
 
 
 		// Calculate Z-indices for particles
-		// TODO : need to determine where should we put this function
 		CalculateZindex(currIndex, dptr);
 
 		UnbindTexturesPCISPH();

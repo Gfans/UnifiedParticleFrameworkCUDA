@@ -23,8 +23,7 @@ typedef unsigned int uint;
 
 enum Dimensions
 {
-	GRID_RESOLUTION = 1024,		  // < 16-bit grid, must be power-of-two
-	NEIGHBORS       = 200
+	GRID_RESOLUTION = 1024		  // < 16-bit grid, must be power-of-two
 };
 
 enum SpecificSimAlgorithm
