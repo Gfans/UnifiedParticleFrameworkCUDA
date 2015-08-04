@@ -77,12 +77,12 @@ void UnifiedWindow::Display()
 
 	rendering_time.Stop();
 	total_time.Stop();
-	myFluid->time_counter_rendering_ += rendering_time.GetElapsedTime();
-	myFluid->time_counter_total_ += total_time.GetElapsedTime();
-	if (myFluid->frame_counter_ % SPH_PROFILING_FREQ == 0)
+	myFluid->set_time_counter_rendering(myFluid->time_counter_rendering() + rendering_time.GetElapsedTime());
+	myFluid->set_time_counter_total(myFluid->time_counter_total() + total_time.GetElapsedTime());
+	if (myFluid->frame_counter() % SPH_PROFILING_FREQ == 0)
 	{
-		float averageElapsed = myFluid->time_counter_rendering_ / myFluid->frame_counter_;
-		float averageElapsedTotal = myFluid->time_counter_total_ / myFluid->frame_counter_;
+		float averageElapsed = myFluid->time_counter_rendering() / myFluid->frame_counter();
+		float averageElapsedTotal = myFluid->time_counter_total() / myFluid->frame_counter();
 		std::cout << "  overall rendering          average: ";
 		std::cout << std::fixed << std::setprecision(5) << averageElapsed << "s = ";
 		std::cout << std::setprecision(2) << std::setw(7) << 1.0f / averageElapsed << "fps" << std::endl;

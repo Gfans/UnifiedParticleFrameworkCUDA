@@ -317,6 +317,18 @@ public:
 		return m_color_vbo_;
 	}
 
+#ifdef SPH_PROFILING
+	unsigned int frame_counter() const { return frame_counter_; }
+	float time_counter() const { return time_counter_; }
+	float time_counter_rendering() const {	return time_counter_rendering_; }
+	float time_counter_total() const { return time_counter_total_; } 
+
+	void set_frame_counter(const unsigned int frame_counter){ frame_counter_ = frame_counter; }
+	void set_time_counter(const float time_counter) { time_counter_ = time_counter; }
+	void set_time_counter_rendering(const float time_counter_rendering) { time_counter_rendering_ = time_counter_rendering; }
+	void set_time_counter_total(const float time_counter_total) { time_counter_total_ = time_counter_total; }
+#endif
+
 	ParticleInfoForRendering& particle_info_for_rendering() { return particle_info_for_rendering_; }
 	ParticleRenderer* renderer() { return renderer_; }
 	UnifiedIO* my_unified_io() { return my_unified_io_; }
